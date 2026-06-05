@@ -1,14 +1,11 @@
 class SlopHerdr < Formula
   desc "Custom herdr (rangrik): right-docked agents bar + FIFO attention/working queue"
   homepage "https://herdr.dev"
-  version "0.6.8-e32c1b3"
-  url "https://github.com/rangrik/homebrew-tap/releases/download/slop-herdr-0.6.8-e32c1b3/herdr-aarch64-macos.tar.gz"
-  sha256 "888e656286941bc6ad5edaac042ca5315c9f1d12fb96ab46dc28cb7043ed6619"
+  version "0.6.8.3"
+  url "https://github.com/rangrik/homebrew-tap/releases/download/slop-herdr-0.6.8.3/herdr-aarch64-macos.tar.gz"
+  sha256 "f119740237b2c4c8013912a744b32667b48a70d613804784a7fec7d175fe4b07"
   license "AGPL-3.0-or-later"
 
-  # Ships the `herdr` binary so it takes over the `herdr` command. Homebrew only
-  # lets one formula own that symlink, so installing this requires uninstalling
-  # (or unlinking) homebrew-core's herdr first, and vice-versa to revert.
   conflicts_with "herdr", because: "both install a `herdr` binary"
 
   def install
