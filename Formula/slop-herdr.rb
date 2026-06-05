@@ -1,8 +1,8 @@
-class SlopHerder < Formula
+class SlopHerdr < Formula
   desc "Custom herdr (rangrik): right-docked agents bar + FIFO attention/working queue"
   homepage "https://herdr.dev"
   version "0.6.8-e32c1b3"
-  url "https://github.com/rangrik/homebrew-tap/releases/download/slop-herder-0.6.8-e32c1b3/herdr-aarch64-macos.tar.gz"
+  url "https://github.com/rangrik/homebrew-tap/releases/download/slop-herdr-0.6.8-e32c1b3/herdr-aarch64-macos.tar.gz"
   sha256 "888e656286941bc6ad5edaac042ca5315c9f1d12fb96ab46dc28cb7043ed6619"
   license "AGPL-3.0-or-later"
 
